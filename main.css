@@ -1,0 +1,32 @@
+#main-container, main, .carousel {
+    width: 1640;
+    margin:0 auto;
+}
+
+#navbar {
+    width: inherit;
+}
+
+
+.searchbar {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.search-btn {
+    width: 144px;
+    height: 38px;
+}
+
+main p {
+    color: #3E3E3E;
+}
+
+.carousel {
+    background-color: #F0EFFF;
+}
+
+.carousel img {
+    width: 800px;
+    height: 600px;
+}
