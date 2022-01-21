@@ -28,7 +28,6 @@
 .search-div {
     border-radius: 6px;
     height: 30px;
-    /* width: 240px; */
     margin-top: 5px;
     margin-right: 10px;
     position: relative;
@@ -89,7 +88,6 @@ main .container .row .col-md-6 .main-first-col .check {
 
 main .container .row .col-md-6 .main-first-col .info {
     color: #6C63FF;
-    /* border: 1px solid #6C63FF; */
     width: 115px;
 }
 
@@ -105,6 +103,8 @@ main .container .row .col-md-6 .main-first-col .info {
 
 .carousel-inner {
     width: 600px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px rgb(197, 197, 197);
 }
 
 .c-imgs {
@@ -112,3 +112,171 @@ main .container .row .col-md-6 .main-first-col .info {
     height: 80vh;
     object-fit: cover;
 }
+
+.carousel-container .carousel ol {
+    margin: 0 auto;
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+}
+
+.car-circles {
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.ol-circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.ol-circle:active {
+    border: solid 1px #FF840A;
+}
+
+ol .active .ol-circle {
+    background-color: #FF840A;
+    border: #FF840A solid 1px;
+}
+
+
+/* PRICING  */
+
+#pricing {
+    height: 500px;
+}
+
+.pricing-container {
+    width: 1300px;
+    height: 420px;
+    margin: 0 auto;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px rgb(197, 197, 197);
+}
+
+.pricing-container h2  {
+    text-align: center;
+    color: #6c63ff;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.card {
+    height: 120px;
+}
+
+.pricing-container .row {
+    margin: 0 auto;
+    height: 310px;
+}
+
+.pricing-container .row .cc {
+    width: 320px;
+}
+
+.card-text {
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.list-group-flush {
+    height: 130px;
+    padding: 0 10px;
+}
+
+ /* for you and your team  */
+.f-team {
+    font-size: 12px;
+    color:#10111a;
+    font-weight: 600;
+}
+
+.card-title {
+    font-weight:600;
+}
+
+.two-title {
+    padding-bottom: 10px;
+}
+
+#pricing .pricing-container .row .cc-f a {
+    background-color: #6C63FF;
+    color: #fcfcfc;
+}
+
+/* first card  */
+#pricing .pricing-container .row .first-c {
+    border: #6C63FF solid 1px;
+}
+.first-c h5{
+    color: #6C63FF;
+}
+
+.first-c h3 {
+    color: #FF840A;
+}
+
+.first-c p {
+    color: #3E3E3E;
+}
+
+/* second card  */
+#pricing .pricing-container .row .second-c {
+    border: #928CF5 solid 1px;
+    background-color: #928CF5;
+}
+.second-c h5,
+.second-c h3,
+.second-c li,
+.second-c a {
+    color: #FCFCFC;
+}
+
+.second-c a {
+    background-color: #FF9A3E;
+}
+
+/* third card  */
+#pricing .pricing-container .row .third-c {
+    border: #716BD1 solid 1px;
+    background-color: #716BD1;
+}
+.third-c h5,
+.third-c h3,
+.third-c li,
+.third-c a {
+    color: #FCFCFC;
+}
+
+.third-c a {
+    background-color: #FF9A3E;
+}
+
+
+
+
+/* ---------------------- MEDIA QUERIES --------------------------- */
+
+/* @media (max-width: 896px) {
+    main {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        border: 5px solid blue;
+    }
+    main .container {
+        width: 100%;
+        border: orange dashed 5px;
+    }
+    .main-first-col {
+        border: red 15px solid;
+    }
+    .hero-image {
+        width: 200px;
+        height: auto;
+    }
+} */

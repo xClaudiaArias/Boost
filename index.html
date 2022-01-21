@@ -47,6 +47,7 @@
         </nav>
     </div>
 
+    <!-- MAIN MAIN  -->
     <main>
         <div class="container">
             <div class="row g-0">
@@ -62,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://tinyurl.com/mvcwzn9e" alt="temp" style="width: 648px; height: 635px">
+                    <img class="hero-img" src="https://tinyurl.com/mvcwzn9e" alt="temp" style="width: 648px; height: 635px">
                 </div>
             </div>
         </div>
@@ -70,15 +71,15 @@
 
     <!-- ----  -->
     <div class="carousel-container container-lg">
-        <div id="carouselExampleIndicators" class="carousel slide d-flex " data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <ol class="carousel-indicators d-flex align-items-center">
+                <li class="list-inline-item car-circles active" data-target="#carouselExampleIndicators" data-slide-to="0"><div class="ol-circle"></div></li>
+                <li class="list-inline-item car-circles" data-target="#carouselExampleIndicators" data-slide-to="1"><div class="ol-circle"></div></li>
+                <li class="list-inline-item car-circles" data-target="#carouselExampleIndicators" data-slide-to="2"><div class="ol-circle"></div></li>
             </ol>
             <div class="carousel-inner position-relative">
                 <div class="carousel-item active">
@@ -103,54 +104,57 @@
     <!-- --------- PRICING  -->
 
     <div id="pricing">
-        <h2>Get Started by Choosing a Plan</h2>
 
-        <!-- cards  -->
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-subtitle">30 Day Free Trial</h5>
-                        <h3 class="card-title">FREE</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="card-text">Access to your personal assistant.</li>
-                            <li class="card-text">Dealing with correspondence and phone calls.</li>
-                            <li class="card-text">Organize Bookings and Events</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Start Trial</a>
+        <div class="pricing-container">
+            <h2>Get Started by Choosing a Plan</h2>
+
+            <!-- cards  -->
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="cc col-sm-4 cc-f">
+                    <div class="card text-center first-c" style="height: 280px" >
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-subtitle fs-5 fw-light">30 Days Free Trial</h5>
+                            <h3 class="card-title two-title free-t">Free</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="card-text text-start lh-lg f-p">Access to your personal assistant.</li>
+                                <li class="card-text text-start lh-lg f-p">Dealing with correspondence and phone calls.</li>
+                                <li class="card-text text-start lh-lg f-p">Organize Bookings and Events</li>
+                            </ul>
+                            <a href="#" class="btn">Start Trial</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-subtitle">Personal</h5>
-                        <h3 class="card-title">$100/mo</h3>
-                        <ul class="list-group list-group-flush">
-                            <li class="card-text">Access to your personal assistant.</li>
-                            <li class="card-text">Dealing with correspondence and phone calls.</li>
-                            <li class="card-text">Organizing meetings and appointments.</li>
-                            <li class="card-text">Managing Bookings and Events</li>
-                            <li class="card-text">12Hr/day Service</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Start Trial</a>
+                <div class="cc col-sm-4">
+                    <div class="card text-center second-c" style="height: 280px" >
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-subtitle fs-5 fw-light">Personal</h5>
+                            <h3 class="card-title two-title pers-t">$100/mo</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="card-text text-start lh-lg">Access to your personal assistant.</li>
+                                <li class="card-text text-start lh-lg">Dealing with correspondence and phone calls.</li>
+                                <li class="card-text text-start lh-lg">Organizing meetings and appointments.</li>
+                                <li class="card-text text-start lh-lg">Managing Bookings and Events</li>
+                                <li class="card-text text-start lh-lg">12Hr/day Service</li>
+                            </ul>
+                            <a href="#" class="btn">Start Trial</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-subtitle">Premium</h5>
-                        <h3 class="card-title">$350/mo</h3>
-                        <h6 class="card-subtitle">For you and your team</h6>
-                        <ul class="list-group list-group-flush">
-                            <li class="card-text">Access to your personal assistant.</li>
-                            <li class="card-text">Dealing with correspondence and phone calls.</li>
-                            <li class="card-text">Organizing meetings and appointments.</li>
-                            <li class="card-text">Managing Bookings and Events</li>
-                            <li class="card-text">24Hr/day Service</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Start Trial</a>
+                <div class="cc col-sm-4">
+                    <div class="card text-center third-c" style="height: 280px" >
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="card-subtitle fs-5 fw-light">Premium</h5>
+                            <h3 class="card-title pre-t">$350/mo</h3>
+                            <h6 class="card-subtitle fw-light f-team">For you and your team</h6>
+                            <ul class="list-group list-group-flush">
+                                <li class="card-text text-start lh-lg">Access to your personal assistant.</li>
+                                <li class="card-text text-start lh-lg">Dealing with correspondence and phone calls.</li>
+                                <li class="card-text text-start lh-lg">Organizing meetings and appointments.</li>
+                                <li class="card-text text-start lh-lg">Managing Bookings and Events</li>
+                                <li class="card-text text-start lh-lg">24Hr/day Service</li>
+                            </ul>
+                            <a href="#" class="btn">Start Trial</a>
+                        </div>
                     </div>
                 </div>
             </div>
